@@ -1,0 +1,103 @@
+@use './partials/variables' as *;
+
+$fa-font-path: "../fonts/webfonts" !default;
+
+@import "~@fortawesome/fontawesome-free/scss/fontawesome";
+@import "~@fortawesome/fontawesome-free/scss/regular";
+@import "~@fortawesome/fontawesome-free/scss/solid";
+@import "~@fortawesome/fontawesome-free/scss/brands";
+
+@import "~bootstrap/scss/bootstrap";
+
+
+a{
+	cursor: pointer;
+}
+
+.my-market {
+	width: 100%;
+	min-height: 80px;
+	height: 15vh;
+	position: relative;
+	z-index: 20;
+}
+.my-market img{
+	width: 50px;
+	height: 80px;
+}
+
+.my-market li{
+	width: calc(100% / 2);
+}
+.my-market ul{
+	width: calc(100% / 2);
+}
+
+ul{
+	list-style-type: none;
+	max-height: 40vh;
+}
+
+.my-body-footer{
+	background-image: url(../../public/images/footer-bg.jpg);
+	background-position: center;
+	background-size: cover;
+	position: relative;
+}
+
+.social-footer{
+	height: 100px;
+	width: 100%;
+	position: fixed;
+	bottom: 0;
+	z-index: 2;
+
+	img{
+		width: 90px;
+	}
+
+}
+
+.social-footer img{
+	width: 50px;
+	height: 50px;
+	padding: 0;
+}
+.my-relative{
+	width: 300px;
+	position: relative;
+	bottom: 45px;
+	z-index: 1;
+}
+
+.my-z{
+	position: relative;
+	z-index: 2;
+}
+
+
+@media screen and (max-width:768px){
+	.my-market img{
+		width: 40px;
+		margin: 10px;
+	}
+
+	.my-market{
+		height: 25vh;
+	}
+
+	.my-relative{
+		scale: 30%;
+		bottom: 80px;
+	}
+}
+@media screen and (max-width:768px){
+	.my-relative{
+		display: none;
+	}
+	.my-body-footer{
+		font-size: 0.4rem;
+		margin-bottom: 99px;
+		padding-bottom: 10px;
+}
+}
