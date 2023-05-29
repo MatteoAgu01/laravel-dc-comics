@@ -18,16 +18,6 @@
 <body>
 
 
-		@include('layout.header')
-		<main class="d-flex flex-wrap justify-content-between">
-		@foreach ($comics as $comic)
-				<div class="card w-25 m-5 text-center bg-dark">
-						<img src="{{ $comic['thumb'] }}" alt="">
-						<h4 class="text-white">{{ $comic['title'] }}</h4>
-				</div>
-		@endforeach
-		</main>
-		@include('layout.footer')
 
 </body>
 
