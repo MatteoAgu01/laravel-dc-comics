@@ -26,6 +26,7 @@
 						<h3>{{ $comic['title'] }}</h3>
 						<p><strong>descrizione:</strong> {{ $comic['description'] }}</p>
 						<p> <strong>prezzo:</strong> {{ $comic['price'] }}</p>
+						<button class="btn btn-primary"><a href="{{ route('comics.edit', $comic->id)}}">edit</a></button>
 				</div>
 
 		</main>

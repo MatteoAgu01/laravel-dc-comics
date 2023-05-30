@@ -41,7 +41,7 @@ class ComicController extends Controller
         $newComic = new Comic();
         $newComic->fill($form_data);
         $newComic->save();
-        return redirect()->route('comics.show', $newComic->id);
+        return redirect()->route('comics.index')->with('message', "il prodotto con id {{$newComic->title}} è stato salvato con sucesso jki,");
     }
 
     /**
@@ -61,9 +61,9 @@ class ComicController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function edit($id)
+    public function edit(Comic $comic)
     {
-        //
+        return view('comics.edit', compact('comic'));
     }
 
     /**
@@ -73,9 +73,11 @@ class ComicController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, $id)
+    public function update(Request $request, Comic $comic)
     {
-        //
+        $form_data = $request->all();
+        $comic->update($form_data);
+        return redirect()->route('comics.index', $comic->id );
     }
 
     /**
