@@ -5,7 +5,7 @@
 			<ul class="d-flex justify-content-center  m-0">
 				<li class="d-flex align-item-center flex-column text-sm-center">
 					<div class="px-3 d-flex align-self-center">
-						<img src="images/buy-comics-digital-comics.png" alt="images">
+						<img src="/images/buy-comics-digital-comics.png" alt="images">
 					</div>
 					<div class="text-white d-flex align-self-center">
 						<p class="m-0">
@@ -15,7 +15,7 @@
 				</li>
 				<li class="d-flex align-item-center flex-column  text-sm-center">
 					<div class="px-3 d-flex align-self-center">
-						<img src="images/buy-comics-merchandise.png" alt="images">
+						<img src="/images/buy-comics-merchandise.png" alt="images">
 					</div>
 					<div class="text-white d-flex align-self-center">
 						<p class="m-0">
@@ -25,7 +25,7 @@
 				</li>
 				<li class="d-flex align-item-center flex-column  text-sm-center">
 					<div class="px-3 d-flex align-self-center">
-						<img src="images/buy-comics-subscriptions.png" alt="images">
+						<img src="/images/buy-comics-subscriptions.png" alt="images">
 					</div>
 					<div class="text-white d-flex align-self-center">
 						<p class="m-0">
@@ -35,7 +35,7 @@
 				</li>
 				<li class="d-flex align-item-center flex-column  text-sm-center">
 					<div class="px-3 d-flex align-self-center">
-						<img src="images/buy-comics-shop-locator.png" alt="images">
+						<img src="/images/buy-comics-shop-locator.png" alt="images">
 					</div>
 					<div class="text-white d-flex align-self-center">
 						<p class="m-0">
@@ -125,7 +125,7 @@
 			</li>
 		</ul>
 
-		<img class="my-relative" src="images/dc-logo-bg.png" alt="">
+		<img class="my-relative" src="/images/dc-logo-bg.png" alt="">
 
 	</div>
 	<!-- //main footer -->
@@ -142,11 +142,11 @@
 				<h4 class="text-uppercase text-primary mx-3">
 					follow us
 				</h4>
-				<img class="d-none d-md-block" src="images/footer-facebook.png" alt="facebook">
-				<img class="px-1 d-none d-md-block" src="images/footer-twitter.png" alt="twitter">
-				<img class="px-1 d-none d-md-block" src="images/footer-youtube.png" alt="youtube">
-				<img class="px-1 d-none d-md-block" src="images/footer-pinterest.png" alt="pintrest">
-				<img class="px-1 d-none d-md-blomd" src="images/footer-periscope.png" alt="periscope">
+				<img class="d-none d-md-block" src="/images/footer-facebook.png" alt="facebook">
+				<img class="px-1 d-none d-md-block" src="/images/footer-twitter.png" alt="twitter">
+				<img class="px-1 d-none d-md-block" src="/images/footer-youtube.png" alt="youtube">
+				<img class="px-1 d-none d-md-block" src="/images/footer-pinterest.png" alt="pintrest">
+				<img class="px-1 d-none d-md-blomd" src="/images/footer-periscope.png" alt="periscope">
 			</div>
 		</div>
 	</div>

@@ -75,6 +75,51 @@ ul{
 	z-index: 2;
 }
 
+.my-bg-blue {
+	opacity: 0;
+	background-color: rgb(53, 53, 253);
+	height: 5px;
+	width: 80%;
+	cursor: pointer;
+	transition: 0.4s;
+}
+
+.my-text-blue {
+	color: black;
+	text-transform: uppercase;
+	text-decoration: none;
+	transition: 0.4;
+}
+
+.my-li-link:hover .my-bg-blue {
+	opacity: 1;
+
+}
+
+.my-li-link:hover .my-text-blue {
+	color: rgb(53, 53, 253);
+}
+
+.my-li-link {
+	cursor: pointer;
+}
+
+.my-jumbo {
+	background-image: url(../../public/img/jumbotron.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	min-height: 250px;
+	position: relative;
+}
+
+.my-title {
+	position: relative;
+	bottom: -230px;
+	display: inline-block;
+	padding: 0.6%;
+	border-radius: 2px;
+	margin: 0 0 0 25px;
+}
 
 @media screen and (max-width:768px){
 	.my-market img{
